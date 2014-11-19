@@ -17,8 +17,8 @@ docker run -v /kodi/source:/kodi kodi-build
 
 ## More container information
 
-Container is based on instructions for building Kodi on [Ubuntu] [1]
-container will install required packages and scripts will automatically install
+Container is based on [instructions for building Kodi on Ubuntu.] [1]
+The container will install required packages and scripts will automatically install
 the android SDK and NDK.
 
 The container will not checkout the kodi code from GitHub but instead it is better if you
