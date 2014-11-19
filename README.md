@@ -17,11 +17,11 @@ docker run -v /kodi/source:/kodi kodi-build
 
 ## More container information
 
-Container is based on instructions for building Kodi on (Ubuntu)[1]
+Container is based on instructions for building Kodi on [Ubuntu] [1]
 container will install required packages and scripts will automatically install
 the android SDK and NDK.
 
 The container will not checkout the kodi code from GitHub but instead it is better if you
 checkout the code yourself and share the volume with `docker run -v /source:/destination kodi-build`
 
-[1] https://github.com/xbmc/xbmc/blob/master/docs/README.android
+ [1]: https://github.com/xbmc/xbmc/blob/master/docs/README.android
