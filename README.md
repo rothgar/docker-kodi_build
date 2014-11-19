@@ -12,7 +12,8 @@ It is designed as a container just to simplify the build process.
 git checkout https://github.com/rothgar/docker-kodi_build
 cd docker-kodi_build
 docker build .
-docker run -v /kodi/source:/kodi kodi-build```
+docker run -v /kodi/source:/kodi kodi-build
+```
 
 ## More container information
 
