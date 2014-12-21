@@ -24,5 +24,5 @@ RUN curl http://dl.google.com/android/ndk/android-ndk-r9-linux-x86.tar.bz2 | \
   
 RUN /opt/android-ndk-r9/build/tools/make-standalone-toolchain.sh --ndk-dir=/opt/android-ndk-r9 \
   --install-dir=/opt/x86-linux-4.8-vanilla/android-14 --platform=android-14 \
-  --toolchain=x86-4.8 --arch=x86 --system=linux-x86
+  --toolchain=x86-4.8 --arch=x86 --system=linux-x86_64
 
