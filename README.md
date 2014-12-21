@@ -1,7 +1,9 @@
-docker-kodi_build
+[WIP] docker-kodi_build
 =================
 
-Docker container for compiling kodi
+Docker container for compiling kodi. If you are not modifying any code and just want to
+download the automatic nightly build you should check out the available builds at
+http://mirrors.xbmc.org/nightlies/
 
 *NOTE* This container doesn't have any GUI apps or IDE for writing or modifying the code. 
 It is designed as a container just to simplify the build process.
