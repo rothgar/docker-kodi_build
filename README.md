@@ -1,5 +1,10 @@
-[WIP] docker-kodi_build
+[RIP] docker-kodi_build
 =================
+
+This project was abandoned after finding easier ways to build and modidy Kodi software.
+========
+
+Kept here for reference or forks only!
 
 Docker container for compiling kodi. If you are not modifying any code and just want to
 download the automatic nightly build you should check out the available builds at
